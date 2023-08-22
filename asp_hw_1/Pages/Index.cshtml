@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Task-1</h1>
+    <h2 class="display-4">Номер текущего дня в году</h2>
+    <p class="fs-3">@DateTime.Now.DayOfYear</p>
+</div>
+
+<div class="text-center">
+    <h1>Task-2</h1>
+    <h2 class="display-4">Любая буква английского алфавита</h2>
+    <p class="fs-3">@Model.letter</p>
+</div>

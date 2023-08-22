@@ -1,0 +1,9 @@
+﻿.container {
+    padding: 10px !important;
+    background-color: gainsboro !important;
+}
+
+.card-title {
+    margin: 2px;
+    text-align: center;
+}
